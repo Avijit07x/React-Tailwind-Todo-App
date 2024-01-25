@@ -1,13 +1,23 @@
 import React, { useRef } from "react";
+import Swal from "sweetalert2";
 
 function AddTodo({ AddTodoBtn }) {
   const userInputRef = useRef();
   const userDateRef = useRef();
 
+  const ErrorMessagePopUp = () => {
+    Swal.fire({
+      title: "Error!",
+      text: "Do you want to continue",
+      icon: "error",
+      confirmButtonText: "Cool",
+    });
+  };
+
   // Function to handle the add todo button click
   const HandleAddTodoBtn = () => {
     if (userInputRef.current.value === "" || userDateRef.current.value === "") {
-      alert("Add Todo and Date First");
+      ErrorMessagePopUp();
     } else {
       let userInputValue = userInputRef.current.value;
       let userDateValue = userDateRef.current.value;
