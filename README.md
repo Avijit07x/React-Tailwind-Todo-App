@@ -14,12 +14,12 @@ A lightweight and user-friendly Todo app created with React and styled using Tai
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/react-todo-app.git
+   git clone https://github.com/Avijit07x/React-Tailwind-Todo-App.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd react-todo-app
+   cd React-Tailwind-Todo-App
    ```
 3. **Install dependencies:**
    ```bash
@@ -41,8 +41,6 @@ A lightweight and user-friendly Todo app created with React and styled using Tai
      Certainly! Here's the converted text:
 
 # Features
-
-- **Responsive Design**: Works seamlessly on various devices.
 
 - **Tailwind CSS Styling**: Clean and visually appealing user interface.
 
